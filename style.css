@@ -40,9 +40,20 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
     }
+    .ol{
+        overflow: hidden;
+        list-style-type: none;
+    }
+    li,.nav-btn{
+        color: #ffffff91;
+        padding: 1pc;
+        display: inline;
+        text-decoration: none;
+    }
     .navbar{
-       text-align: right;
-       display:none;
+        font-size: 1.2pc;
+       text-align: center;
+       padding: 2rem;
     }
     .header{
         display: block;
@@ -76,7 +87,28 @@
     white-space:2rem;
     color: #fff;
     }
- 
+ .btn-follow{
+     position: relative;
+     top: 6rem;
+     font-weight: 700;
+     text-decoration: none;
+     padding: 10px;
+     border-radius: 20px;
+     border: solid 2px rgba(255, 255, 255, 0.911);
+ }
+ .btn-follow:hover{
+     background-color:rgba(255, 255, 255, 0.911);
+     color: #000000cb;
+     
+ }
+ .footer-nav{
+     padding: 1rem;
+ }
+ .footer-nav-list{
+     color: #ffffff91;
+     font-size: 15px;
+     text-decoration: underline;
+ }
 }
 
 @media only screen and (max-width: 780px) {
@@ -120,10 +152,24 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
     }
-    .navbar{
-       text-align: right;
-       display:none;
+    
+    .ol{
+        overflow: hidden;
+        list-style-type: none;
     }
+    li,.nav-btn{
+        color: #ffffff91;
+        padding: 1pc;
+        display: block;
+        text-decoration: none;
+    }
+    .navbar{
+        display: none;
+        font-size: 1pc;
+       text-align: center;
+       padding: 2rem;
+    }
+
     .header{
         background-attachment:local;
         display: block;
@@ -156,5 +202,22 @@
     white-space:2rem;
     color: #fff;
     }
- 
+    .btn-follow{
+        position: relative;
+        top: 6rem;
+        font-weight: 700;
+        text-decoration: none;
+        padding: 10px;
+        border-radius: 20px;
+        border: solid 2px #fff;
+    }
+    .footer-nav{
+        display: block;
+        padding: 1rem;
+    }
+    .footer-nav-list{
+        color: #ffffff91;
+        font-size: 15px;
+        text-decoration: underline;
+    }
   }
