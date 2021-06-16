@@ -1,40 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @media only screen and (max-width: 2560px){
  .menu-wrap{display: none;}
-    .loader-container{
-        width: 100%;
-        height: 100vh;
-        background-color: #111;
-        position: fixed;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .loader{
-        width: 50px;
-        height: 50px;
-        border: 5px solid;
-        color: #ffffffb2;
-        border-radius: 50%;
-        border-top-color: transparent;
-        animation: loader 1.1s linear infinite;
-    }
-    
-    @keyframes loader{
-        25%{
-            color: #ffffff91;
-        }
-        50%{
-            color: #ffffff91;
-        }
-        75%{
-            color: #ffffff91;
-        }
-        to{
-            transform: rotate(360deg);
-        }
-    }
+
     *{
     padding: 0;
     margin: 0;
@@ -72,18 +39,7 @@
         background-size: cover;
         height:50pc;
     }
-    #maintitle{
-        font-size: 40px;
-        line-height: 6rem;
-    }
-    #moreboringtxt{
-     font-size: 20px;
-        color: #ffffff91;
-    }
-    .maint{
-        position: relative;
-        top: 15rem;
-    }
+ 
     footer{
         color: rgb(255, 255, 255);
         padding: 4vmax;
@@ -94,20 +50,7 @@
     white-space:2rem;
     color: #fff;
     }
- #btnfollow{
-     position: relative;
-     top: 6rem;
-     font-weight: 700;
-     text-decoration: none;
-     padding: 10px;
-     border-radius: 10px;
-     border: solid 2px rgba(255, 255, 255, 0.911);
- }
- .btnfollow:hover{
-     background-color:rgba(255, 255, 255, 0.911);
-     color: #000000cb;
-     
- }
+
  .footer-nav{
      padding: 1rem;
  }
@@ -158,7 +101,7 @@
         opacity: 0.7;
       }
       
-      /* MENU STYLES */
+    
       .menu-wrap {
           display: block;
         position: fixed;
@@ -186,13 +129,13 @@
         width: 60px;
         height: 60px;
         padding: 1rem;
-        background-color: #151418;
+        background-color: #15141800;
         display: flex;
         align-items: center;
         justify-content: center;
       }
       
-      /* Hamburger Line */
+     
       .menu-wrap .hamburger > div {
         position: relative;
         flex: none;
@@ -205,7 +148,7 @@
         transition: all 0.4s ease;
       }
       
-      /* Hamburger Lines - Top & Bottom */
+    
       .menu-wrap .hamburger > div::before,
       .menu-wrap .hamburger > div::after {
         content: '';
@@ -217,29 +160,28 @@
         background: inherit;
       }
       
-      /* Moves Line Down */
+     
       .menu-wrap .hamburger > div::after {
         top: 10px;
       }
       
-      /* Toggler Animation */
+   
       .menu-wrap .toggler:checked + .hamburger > div {
         transform: rotate(135deg);
       }
-      
-      /* Turns Lines Into X */
+
       .menu-wrap .toggler:checked + .hamburger > div:before,
       .menu-wrap .toggler:checked + .hamburger > div:after {
         top: 0;
         transform: rotate(90deg);
       }
       
-      /* Rotate On Hover When Checked */
+     
       .menu-wrap .toggler:checked:hover + .hamburger > div {
         transform: rotate(225deg);
       }
       
-      /* Show Menu */
+    
       .menu-wrap .toggler:checked ~ .menu {
         visibility: visible;
       }
@@ -304,40 +246,7 @@
 body{
     background-color: #151418;
 }
-    .loader-container{
-        width: 100%;
-        height: 100vh;
-        background-color: #111;
-        position: fixed;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .loader{
-        width: 50px;
-        height: 50px;
-        border: 5px solid;
-        color: #ffffffb2;
-        border-radius: 50%;
-        border-top-color: transparent;
-        animation: loader 1.1s linear infinite;
-    }
-    
-    @keyframes loader{
-        25%{
-            color: #ffffff91;
-        }
-        50%{
-            color: #ffffff91;
-        }
-        75%{
-            color: #ffffff91;
-        }
-        to{
-            transform: rotate(360deg);
-        }
-    }
+  
     *{
     padding: 0;
     margin: 0;
@@ -372,18 +281,7 @@ body{
         background-size: cover;
         height:48pc;
     }
-    #maintitle{
-        font-size: 40px;
-        line-height: 6rem;
-    }
-    #moreboringtxt{
-     font-size: 20px;
-        color: #ffffff91;
-    }
-    .maint{
-        position: relative;
-        top: 16rem;
-    }
+  
     footer{
         color: rgb(255, 255, 255);
         padding: 55px;
