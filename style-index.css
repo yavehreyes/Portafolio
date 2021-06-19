@@ -71,7 +71,6 @@ body{
         display: block;
         color: #fff;
         text-align: center;
-        background-attachment: fixed;
         background-image: url(img/backg.png);
         background-repeat: no-repeat;
         background-size: cover;
