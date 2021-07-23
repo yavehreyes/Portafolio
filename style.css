@@ -78,6 +78,9 @@
     fill: #ffffff;
 }
     /*service content*/
+    .svg-icon{
+       fill: #fff;
+    }
     .serv{
         position: relative;
         background-color: #ffffff;
@@ -94,6 +97,7 @@
         display: flex;
         flex-direction: row;
     }
+  
     .box-s{
         padding: 6rem;
         text-align: center;
