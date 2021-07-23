@@ -1,3 +1,136 @@
+@media (min-width:1200px){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing:border-box;
+        font-family: 'Satoshi', sans-serif;
+    }
+    /*navegation bar*/
+    .navbar{
+        text-align: right;
+        color: #fff;
+        position: fixed;
+        background-color: #000000;
+        width: 100%;
+        height: 5rem;
+        padding: 1.8rem;
+        z-index: 1;
+    }
+    .txt-logo{
+        position: absolute;
+         right: 90%;
+         font-size: 18px;
+         font-weight: 700;
+    }
+    .txt-logo-link{
+        text-decoration: none;
+        color: #fff;
+    }
+    .btn-nav{
+        text-decoration: none;
+        color: #fff;
+        font-weight: 500;
+        font-size: 16px;
+    }
+    .btn-nav:hover{
+        color: #4c7df0;
+    }
+    .btn-list{
+        display: inline;
+        padding: 0.5rem;
+    }
+    .navbar::after{
+        position: absolute;
+        content: '';
+        bottom:0;
+        left: 0;
+        right: 0;
+        height: 2px;
+       background-color: #0545ec;
+       width: 100%;
+    }
+    /*header content */
+    .header{
+        position: relative;
+        background-color: #040404;
+        height: 80rem;
+        color: #fff;
+        border-bottom-left-radius: 50% 4%;
+        border-bottom-right-radius: 50% 4%;
+    }
+
+    .present{
+        position: relative;
+        top: 30%;
+        text-align: center;
+    }
+    .main-title{
+        color: #0545ec;
+        font-size: 60px;
+    }
+    .main-sub{
+        color: #ffffffb6;
+        font-size: 40px;
+        font-weight: 600;
+    }
+    /*service content*/
+    .serv{
+        position: relative;
+        background-color: #ffffff;
+        min-height: 80rem;
+    }
+    .serv-title{
+        padding: 8rem;
+        text-align: center;
+        font-size: 48px;
+    }
+    .box-wrapper{
+        position: relative;
+        top: 8%;
+        display: flex;
+        flex-direction: row;
+    }
+    .box-s{
+        padding: 6rem;
+        text-align: center;
+        border-radius: 1%;
+        color: #fff;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(0, 0, 0);
+        width: 30vw;
+        height: 50vmin;
+    }
+    .box-pr{
+        color: rgba(255, 255, 255, 0.829);
+    }
+    .box-info{
+        font-size: 15px;
+        position: relative;
+        top: 50px;
+        text-align: center;
+        list-style: none;
+    }
+    /*footer style*/
+    .footer::after{
+        position: absolute;
+        content: '';
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 2px;
+       background-color: #0545ec;
+       width: 100%;
+    }
+    .footer{
+        position: relative;
+        text-align: center;
+        background-color:#0a0a0a;
+        height: 7rem;
+        padding: 3rem;
+        color: #fff;
+    }
+}
 @media (min-width:1024px){
     *{
         padding: 0;
@@ -73,7 +206,10 @@
         font-size: 40px;
         font-weight: 600;
     }
-
+#Capa_1{
+    width: 98vw;
+    fill: #ffffff;
+}
     /*service content*/
     .serv{
         position: relative;
@@ -101,6 +237,426 @@
         background-color: rgb(0, 0, 0);
         width: 30vw;
         height: 50vmin;
+    }
+    .box-pr{
+        color: rgba(255, 255, 255, 0.829);
+    }
+    .box-info{
+        font-size: 15px;
+        position: relative;
+        top: 50px;
+        text-align: center;
+        list-style: none;
+    }
+    /*footer style*/
+    .footer::after{
+        position: absolute;
+        content: '';
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 2px;
+       background-color: #0545ec;
+       width: 100%;
+    }
+    .footer{
+        position: relative;
+        text-align: center;
+        background-color:#0a0a0a;
+        height: 7rem;
+        padding: 3rem;
+        color: #fff;
+    }
+}
+@media (min-width:992px){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing:border-box;
+        font-family: 'Satoshi', sans-serif;
+    }
+    /*navegation bar*/
+    .navbar{
+        text-align: right;
+        color: #fff;
+        position: fixed;
+        background-color: #000000;
+        width: 100%;
+        height: 5rem;
+        padding: 1.8rem;
+        z-index: 1;
+    }
+    .txt-logo{
+        position: absolute;
+         right: 90%;
+         font-size: 18px;
+         font-weight: 700;
+    }
+    .txt-logo-link{
+        text-decoration: none;
+        color: #fff;
+    }
+    .btn-nav{
+        text-decoration: none;
+        color: #fff;
+        font-weight: 500;
+        font-size: 16px;
+    }
+    .btn-nav:hover{
+        color: #4c7df0;
+    }
+    .btn-list{
+        display: inline;
+        padding: 0.5rem;
+    }
+    .navbar::after{
+        position: absolute;
+        content: '';
+        bottom:0;
+        left: 0;
+        right: 0;
+        height: 2px;
+       background-color: #0545ec;
+       width: 100%;
+    }
+    /*header content */
+    .header{
+        position: relative;
+        background-color: #040404;
+        height: 80rem;
+        color: #fff;
+        border-bottom-left-radius: 50% 4%;
+        border-bottom-right-radius: 50% 4%;
+    }
+
+    .present{
+        position: relative;
+        top: 30%;
+        text-align: center;
+    }
+    .main-title{
+        color: #0545ec;
+        font-size: 60px;
+    }
+    .main-sub{
+        color: #ffffffb6;
+        font-size: 40px;
+        font-weight: 600;
+    }
+#Capa_1{
+    width: 98vw;
+    fill: #ffffff;
+}
+    /*service content*/
+    .serv{
+        position: relative;
+        background-color: #ffffff;
+        min-height: 80rem;
+    }
+    .serv-title{
+        padding: 8rem;
+        text-align: center;
+        font-size: 48px;
+    }
+    .box-wrapper{
+        position: relative;
+        top: 8%;
+        display: flex;
+        flex-direction: row;
+    }
+    .box-s{
+        padding: 6rem;
+        text-align: center;
+        border-radius: 1%;
+        color: #fff;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(0, 0, 0);
+        width: 30vw;
+        height: 50vmin;
+    }
+    .box-pr{
+        color: rgba(255, 255, 255, 0.829);
+    }
+    .box-info{
+        font-size: 15px;
+        position: relative;
+        top: 50px;
+        text-align: center;
+        list-style: none;
+    }
+    /*footer style*/
+    .footer::after{
+        position: absolute;
+        content: '';
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 2px;
+       background-color: #0545ec;
+       width: 100%;
+    }
+    .footer{
+        position: relative;
+        text-align: center;
+        background-color:#0a0a0a;
+        height: 7rem;
+        padding: 3rem;
+        color: #fff;
+    }
+}
+@media (min-width:768px){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing:border-box;
+        font-family: 'Satoshi', sans-serif;
+    }
+    /*navegation bar*/
+    .navbar{
+        text-align: right;
+        color: #fff;
+        position: fixed;
+        background-color: #000000;
+        width: 100%;
+        height: 5rem;
+        padding: 1.8rem;
+        z-index: 1;
+    }
+    .txt-logo{
+        position: absolute;
+         right: 90%;
+         font-size: 18px;
+         font-weight: 700;
+    }
+    .txt-logo-link{
+        text-decoration: none;
+        color: #fff;
+    }
+    .btn-nav{
+        text-decoration: none;
+        color: #fff;
+        font-weight: 500;
+        font-size: 16px;
+    }
+    .btn-nav:hover{
+        color: #4c7df0;
+    }
+    .btn-list{
+        display: inline;
+        padding: 0.5rem;
+    }
+    .navbar::after{
+        position: absolute;
+        content: '';
+        bottom:0;
+        left: 0;
+        right: 0;
+        height: 2px;
+       background-color: #0545ec;
+       width: 100%;
+    }
+    /*header content */
+    .header{
+        position: relative;
+        background-color: #040404;
+        height: 80rem;
+        color: #fff;
+        border-bottom-left-radius: 50% 4%;
+        border-bottom-right-radius: 50% 4%;
+    }
+
+    .present{
+        position: relative;
+        top: 30%;
+        text-align: center;
+    }
+    .main-title{
+        color: #0545ec;
+        font-size: 60px;
+    }
+    .main-sub{
+        color: #ffffffb6;
+        font-size: 40px;
+        font-weight: 600;
+    }
+#Capa_1{
+    width: 98vw;
+    fill: #ffffff;
+}
+    /*service content*/
+    .serv{
+        position: relative;
+        background-color: #ffffff;
+        min-height: 80rem;
+    }
+    .serv-title{
+        padding: 8rem;
+        text-align: center;
+        font-size: 48px;
+    }
+    .box-wrapper{
+        position: relative;
+        top: 8%;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .box-s{
+        position: relative;
+        padding: 6rem;
+        text-align: center;
+        border-radius: 1%;
+        color: #fff;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5px;
+        background-color: rgb(0, 0, 0);
+        width: 85vmin;
+        height: 120vmin;
+    }
+    .box-pr{
+        color: rgba(255, 255, 255, 0.829);
+    }
+    .box-info{
+        font-size: 15px;
+        position: relative;
+        top: 50px;
+        text-align: center;
+        list-style: none;
+    }
+    /*footer style*/
+    .footer::after{
+        position: absolute;
+        content: '';
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 2px;
+       background-color: #0545ec;
+       width: 100%;
+    }
+    .footer{
+        position: relative;
+        text-align: center;
+        background-color:#0a0a0a;
+        height: 7rem;
+        padding: 3rem;
+        color: #fff;
+    }
+}
+@media (max-width:576px){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing:border-box;
+        font-family: 'Satoshi', sans-serif;
+    }
+    /*navegation bar*/
+    .navbar{
+        text-align: right;
+        color: #fff;
+        position: fixed;
+        background-color: #000000;
+        width: 100%;
+        height: 5rem;
+        padding: 1.8rem;
+        z-index: 1;
+    }
+    .txt-logo{
+        position: absolute;
+         right: 90%;
+         font-size: 18px;
+         font-weight: 700;
+    }
+    .txt-logo-link{
+        text-decoration: none;
+        color: #fff;
+    }
+    .btn-nav{
+        text-decoration: none;
+        color: #fff;
+        font-weight: 500;
+        font-size: 16px;
+    }
+    .btn-nav:hover{
+        color: #4c7df0;
+    }
+    .btn-list{
+        display: inline;
+        padding: 0.5rem;
+    }
+    .navbar::after{
+        position: absolute;
+        content: '';
+        bottom:0;
+        left: 0;
+        right: 0;
+        height: 2px;
+       background-color: #0545ec;
+       width: 100%;
+    }
+    /*header content */
+    .header{
+        position: relative;
+        background-color: #040404;
+        height: 55rem;
+        color: #fff;
+        border-bottom-left-radius: 50% 1%;
+        border-bottom-right-radius: 50% 1%;
+    }
+
+    .present{
+        position: relative;
+        top: 30%;
+        text-align: center;
+    }
+    .main-title{
+        color: #0545ec;
+        font-size: 60px;
+    }
+    .main-sub{
+        color: #ffffffb6;
+        font-size: 40px;
+        font-weight: 600;
+    }
+#Capa_1{
+    position: relative;
+    width: 100vw;
+    fill: #ffffff;
+    bottom:13.4rem;
+    
+}
+    /*service content*/
+    .serv{
+        position: relative;
+        background-color: #ffffff;
+        min-height: 80rem;
+    }
+    .serv-title{
+        padding: 8rem;
+        text-align: center;
+        font-size: 48px;
+    }
+    .box-wrapper{
+        position: relative;
+        top: 8%;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .box-s{
+        position: relative;
+        padding: 6rem;
+        text-align: center;
+        border-radius: 1%;
+        color: #fff;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5px;
+        background-color: rgb(0, 0, 0);
+        width: 85vmin;
+        height: 120vmin;
     }
     .box-pr{
         color: rgba(255, 255, 255, 0.829);
