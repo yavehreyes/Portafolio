@@ -5,13 +5,7 @@
 		box-sizing: border-box;
 		font-family: 'Satoshi', sans-serif;
 	}
-	/**/
-	.main {
-		position: relative;
-		background: #ffffff;
-		height: 100vh;
-		width: 100vw;
-	}
+
 	/**/
 	.navbar {
 		position: fixed;
@@ -29,14 +23,12 @@
 		background: #1bebbb00;
 		display: flex;
 		top: 22%;
-		left: 50px;
+		left: 90px;
 	}
-	.logo {
+	.txt-logo {
 		position: relative;
-		width: 50px;
-		height: 50px;
-		stroke: none;
-		fill: #000000;
+		top: 7px;
+		font-weight: 800;
 	}
 
 	ul {
@@ -44,7 +36,7 @@
 		display: flex;
 		position: relative;
 		top: 16px;
-		left: 12px;
+		left: 30px;
 	}
 	li {
 		margin: 5px;
@@ -55,5 +47,42 @@
 	}
 	.arrow {
 		transform: rotate(90deg);
+	}
+	/**/
+	.main {
+		position: relative;
+		background: #ffffff;
+		height: 100vh;
+		width: 100vw;
+	}
+	.con {
+		position: relative;
+		top: 40%;
+		left: 10rem;
+		width: fit-content;
+	}
+	.main-txt {
+		font-size: 60px;
+		font-weight: 700;
+	}
+	.main-sub-txt {
+		font-size: 28px;
+	}
+	.contact-link {
+		position: relative;
+		background: #000;
+		padding: 1rem 2rem;
+		text-decoration: none;
+		color: #ffffff;
+		font-weight: 700;
+		top: 35px;
+		border-radius: 3px;
+	}
+	.contact-link:hover {
+		background: rgb(24, 24, 24);
+	}
+	.svg-phone {
+		position: relative;
+		left: 55%;
 	}
 }
