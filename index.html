@@ -17,8 +17,29 @@
 			<div class="navbar">
 				<div class="link-logo">
 					<h1 class="txt-logo">YH</h1>
-					<ul>
-						<li>
+					<a onclick="mobileAction()" href="#" class="mobile-menu">
+						<svg class="svg-icon" viewBox="0 0 20 20">
+							<path
+								fill="#000"
+								d="M3.314,4.8h13.372c0.41,0,0.743-0.333,0.743-0.743c0-0.41-0.333-0.743-0.743-0.743H3.314
+								c-0.41,0-0.743,0.333-0.743,0.743C2.571,4.467,2.904,4.8,3.314,4.8z M16.686,15.2H3.314c-0.41,0-0.743,0.333-0.743,0.743
+								s0.333,0.743,0.743,0.743h13.372c0.41,0,0.743-0.333,0.743-0.743S17.096,15.2,16.686,15.2z M16.686,9.257H3.314
+								c-0.41,0-0.743,0.333-0.743,0.743s0.333,0.743,0.743,0.743h13.372c0.41,0,0.743-0.333,0.743-0.743S17.096,9.257,16.686,9.257z"
+							></path>
+						</svg>
+					</a>
+					<a href="#" onclick="mobileOff()" class="menu-lv"
+						><svg class="svg-icon" viewBox="0 0 20 20">
+							<path
+								fill="#000"
+								d="M11.469,10l7.08-7.08c0.406-0.406,0.406-1.064,0-1.469c-0.406-0.406-1.063-0.406-1.469,0L10,8.53l-7.081-7.08
+					c-0.406-0.406-1.064-0.406-1.469,0c-0.406,0.406-0.406,1.063,0,1.469L8.531,10L1.45,17.081c-0.406,0.406-0.406,1.064,0,1.469
+					c0.203,0.203,0.469,0.304,0.735,0.304c0.266,0,0.531-0.101,0.735-0.304L10,11.469l7.08,7.081c0.203,0.203,0.469,0.304,0.735,0.304
+					c0.267,0,0.532-0.101,0.735-0.304c0.406-0.406,0.406-1.064,0-1.469L11.469,10z"
+							></path></svg
+					></a>
+					<ul class="pc-1">
+						<li class="pc-sub">
 							<a href="" class="nav-link"
 								>About me<img
 									src="https://assets.website-files.com/59c9811db5fc1c0001445dbd/5b87251249d2a0d408f4a45a_icon-darkblue-small-chevron.svg"
@@ -26,7 +47,7 @@
 									class="arrow"
 							/></a>
 						</li>
-						<li>
+						<li class="pc-sub">
 							<a href="" class="nav-link"
 								>Portafolio<img
 									src="https://assets.website-files.com/59c9811db5fc1c0001445dbd/5b87251249d2a0d408f4a45a_icon-darkblue-small-chevron.svg"
@@ -34,15 +55,42 @@
 									class="arrow"
 							/></a>
 						</li>
-						<li>
+						<li class="pc-sub">
 							<a href="" class="nav-link"
-								>Pricing<img
+								>Edu<img
 									src="https://assets.website-files.com/59c9811db5fc1c0001445dbd/5b87251249d2a0d408f4a45a_icon-darkblue-small-chevron.svg"
 									alt=""
 									class="arrow"
 							/></a>
 						</li>
 					</ul>
+				</div>
+			</div>
+			<div class="mobile-nav">
+				<ul class="mobile-ul">
+					<li class="mobile-li">
+						<a href="" class="mobile-link">About me</a>
+					</li>
+					<li class="mobile-li">
+						<a href="" class="mobile-link">Portafolio</a>
+					</li>
+					<li class="mobile-li">
+						<a href="" class="mobile-link">Edu</a>
+					</li>
+				</ul>
+				<div class="social">
+					<a
+						target="blank_"
+						href="https://github.com/yavehreyes"
+						class="social-link"
+						><img src="./static/github.svg" alt="Github" class="git"
+					/></a>
+					<a
+						target="blank_"
+						href="https://instagram.com/yavehreyesdev"
+						class="social-link"
+						><img src="./static/instagram.svg" alt="Instagram" class="git"
+					/></a>
 				</div>
 			</div>
 			<div class="main">
@@ -56,5 +104,6 @@
 				<p class="copy">&copy;Yaveh 2021</p>
 			</div>
 		</div>
+		<script src="app.js"></script>
 	</body>
 </html>
