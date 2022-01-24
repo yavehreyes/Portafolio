@@ -1,350 +1,59 @@
-@media (max-width: 600px) {
-	* {
-		padding: 0;
-		margin: 0;
-		box-sizing: border-box;
-		font-family: 'Satoshi', sans-serif;
-	}
-
-	/**/
-	.mobile-menu {
-		position: relative;
-		top: 0.7rem;
-		left: 50%;
-	}
-	.svg-icon {
-		width: 30px;
-	}
-	.mobile-link {
-		position: relative;
-		color: #000;
-		text-decoration: none;
-		font-size: 26px;
-	}
-	.social {
-		position: relative;
-		text-align: center;
-		top: 20rem;
-	}
-	.mobile-li {
-		margin: 25px;
-	}
-	li {
-		list-style: none;
-	}
-	.menu-lv {
-		position: relative;
-		top: 0.5rem;
-		left: 50%;
-		width: 35px;
-		display: none;
-	}
-	/**/
-	.mobile-nav {
-		position: relative;
-		height: 100vh;
-		background: rgb(255, 255, 255);
-		z-index: 1;
-		display: none;
-	}
-	.mobile-ul {
-		position: relative;
-		top: 19rem;
-		text-align: center;
-	}
-	/**/
-	.navbar {
-		position: fixed;
-		z-index: 2;
-		background: #ffffff;
-		width: 100%;
-		height: 6rem;
-		border: solid 1px #000;
-		border-left: none;
-		border-right: none;
-		border-top: none;
-	}
-	.link-logo {
-		position: relative;
-		background: #1bebbb00;
-		display: flex;
-		top: 22%;
-		left: 90px;
-	}
-	.txt-logo {
-		position: relative;
-		top: 7px;
-		font-weight: 800;
-	}
-
-	.pc-1 {
-		list-style: none;
-		display: flex;
-		position: relative;
-		top: 16px;
-		left: 30px;
-	}
-	.pc-sub {
-		margin: 5px;
-	}
-	.nav-link {
-		display: none;
-		text-decoration: none;
-		color: #000000;
-	}
-	.arrow {
-		transform: rotate(90deg);
-	}
-	/**/
-	.main {
-		position: relative;
-		background: #ffffff;
-		height: 100vh;
-	}
-	.con {
-		position: relative;
-		top: 40%;
-		text-align: center;
-		margin-left: auto;
-		margin-right: auto;
-		width: fit-content;
-	}
-	.main-txt {
-		font-size: 40px;
-		font-weight: 700;
-	}
-	.main-sub-txt {
-		font-size: 18px;
-	}
-	.contact-link {
-		position: relative;
-		background: #000;
-		padding: 1rem 2rem;
-		text-decoration: none;
-		color: #ffffff;
-		font-weight: 700;
-		top: 35px;
-		border-radius: 27px 4px;
-	}
-	.contact-link:hover {
-		background: rgb(24, 24, 24);
-	}
-	.svg-phone {
-		position: relative;
-		left: 55%;
-	}
-	/*footer*/
-	.footer {
-		position: relative;
-		background: #000;
-		text-align: center;
-		color: #fff;
-		height: 4rem;
-		padding: 1.5rem;
-	}
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Satoshi', sans-serif;
+	color: #fff;
 }
-@media (min-width: 600px) {
-	* {
-		padding: 0;
-		margin: 0;
-		box-sizing: border-box;
-		font-family: 'Satoshi', sans-serif;
-	}
-
-	/**/
-	.mobile-nav {
-		display: none;
-	}
-
-	/**/
-	.navbar {
-		position: fixed;
-		z-index: 1;
-		background: #2873bd00;
-		width: 100%;
-		height: 6rem;
-		border: solid 1px #000;
-		border-left: none;
-		border-right: none;
-		border-top: none;
-	}
-	.link-logo {
-		position: relative;
-		background: #1bebbb00;
-		display: flex;
-		top: 22%;
-		left: 90px;
-	}
-	.txt-logo {
-		position: relative;
-		top: 7px;
-		font-weight: 800;
-	}
-
-	.pc-1 {
-		list-style: none;
-		display: flex;
-		position: relative;
-		top: 16px;
-		left: 30px;
-	}
-	.pc-sub {
-		margin: 5px;
-	}
-	.nav-link {
-		text-decoration: none;
-		color: #000000;
-	}
-	.arrow {
-		transform: rotate(90deg);
-	}
-	/**/
-	.main {
-		position: relative;
-		background: #ffffff;
-		height: 100vh;
-	}
-	.con {
-		position: relative;
-		top: 40%;
-		text-align: center;
-		margin-left: auto;
-		margin-right: auto;
-		width: fit-content;
-	}
-	.main-txt {
-		font-size: 60px;
-		font-weight: 700;
-	}
-	.main-sub-txt {
-		font-size: 28px;
-	}
-	.contact-link {
-		position: relative;
-		background: #000;
-		padding: 1rem 2rem;
-		text-decoration: none;
-		color: #ffffff;
-		font-weight: 700;
-		top: 35px;
-		border-radius: 27px 4px;
-	}
-	.contact-link:hover {
-		background: rgb(24, 24, 24);
-	}
-	.svg-phone {
-		position: relative;
-		left: 55%;
-	}
-	/*footer*/
-	.footer {
-		position: relative;
-		background: #000;
-		text-align: center;
-		color: #fff;
-		height: 4rem;
-		padding: 1.5rem;
-	}
+.navbar {
+	position: relative;
+	height: 5rem;
+	background-color: rgb(0, 0, 0);
+	padding: 4rem 5rem;
+	text-align: right;
 }
-@media (min-width: 1200px) {
-	* {
-		padding: 0;
-		margin: 0;
-		box-sizing: border-box;
-		font-family: 'Satoshi', sans-serif;
-	}
-	/**/
-	.mobile-nav {
-		display: none;
-	}
+.nav-link,
+a {
+	position: relative;
 
-	/**/
-	.navbar {
-		position: fixed;
-		z-index: 1;
-		background: #2873bd00;
-		width: 100%;
-		height: 6rem;
-		border: solid 1px #000;
-		border-left: none;
-		border-right: none;
-		border-top: none;
-	}
-	.link-logo {
-		position: relative;
-		background: #1bebbb00;
-		display: flex;
-		top: 22%;
-		left: 90px;
-	}
-	.txt-logo {
-		position: relative;
-		top: 7px;
-		font-weight: 800;
-	}
-
-	.pc-1 {
-		list-style: none;
-		display: flex;
-		position: relative;
-		top: 16px;
-		left: 30px;
-	}
-	.pc-sub {
-		margin: 5px;
-	}
-	.nav-link {
-		text-decoration: none;
-		color: #000000;
-	}
-	.arrow {
-		transform: rotate(90deg);
-	}
-	/**/
-	.main {
-		position: relative;
-		background: #ffffff;
-		height: 100vh;
-	}
-	.con {
-		position: relative;
-		top: 40%;
-		text-align: center;
-		margin-left: auto;
-		margin-right: auto;
-		width: fit-content;
-	}
-	.main-txt {
-		font-size: 60px;
-		font-weight: 700;
-	}
-	.main-sub-txt {
-		font-size: 28px;
-	}
-	.contact-link {
-		position: relative;
-		background: #000;
-		padding: 1rem 2rem;
-		text-decoration: none;
-		color: #ffffff;
-		font-weight: 700;
-		top: 35px;
-		border-radius: 27px 4px;
-	}
-	.contact-link:hover {
-		background: rgb(24, 24, 24);
-	}
-	.svg-phone {
-		position: relative;
-		left: 55%;
-	}
-	/*footer*/
-	.footer {
-		position: relative;
-		background: #000;
-		text-align: center;
-		color: #fff;
-		height: 4rem;
-		padding: 1.5rem;
-	}
+	display: inline;
+	text-decoration: none;
+	font-size: 24px;
+	margin: 25px;
+	font-weight: 400;
 }
+/**/
+
+.main {
+	position: relative;
+	height: 100vh;
+	background: rgb(0, 0, 0) no-repeat url(./circle.svg);
+	background-position: right bottom;
+	background-size: 80rem;
+}
+.m-txt-con {
+	position: absolute;
+	width: auto;
+	height: 32px;
+	left: 151px;
+	top: 250px;
+}
+.main-txt {
+	font-size: 72px;
+}
+.sub-txt {
+	position: absolute;
+	font-size: 24px;
+	left: 15px;
+}
+/**/
+.footer {
+	position: relative;
+	text-align: center;
+	height: 5rem;
+	background-color: rgb(7, 7, 7);
+
+	padding: 2rem;
+}
+
+/*@media (min-width: 1200px){}*/
