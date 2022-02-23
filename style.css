@@ -1,4 +1,8 @@
-@media (min-width:0){
+
+html {
+    scroll-behavior: smooth;
+  }
+  @media (min-width:1200px){
     *{
         font-family: 'Satoshi', sans-serif;
         padding: 0;
@@ -29,9 +33,78 @@
         position: absolute;
         top: 15rem;
         color: #fff;
-        left: 7rem;
-        top: 23rem;
+        left: 4.2rem;
+        top: 20rem;
         font-size: 46px;
+    }.main-btn{
+        position: absolute;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        font-weight: 800;
+        left: 4.4rem;
+        top: 30rem;
+        font-size: 26px;
+        background-color: #ffffff;
+        padding: 1rem 4rem;
+        border-radius: 16px;
+
+    }
+    .footer{
+        font-weight: 400;
+        position: relative;
+        height: 5rem;
+        padding: 2rem;
+        text-align: center;
+        color: #fff;
+        background:#030B0D ;
+    }
+}@media (max-width:700px){
+    *{
+        font-family: 'Satoshi', sans-serif;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    /**/
+    .navbar{
+        position: absolute;
+        z-index: 1;
+        background: rgba(27, 26, 26, 0);
+        height: 5rem;
+        padding: 2rem;
+        width: 100%;
+        text-align: right;
+    }.nav-link{
+        text-decoration: none;
+        color: #fff;
+        margin: 15px;
+        font-size: 16px;
+    }
+    .main{
+        position: relative;
+        height: 57rem;
+        background: url(./blue.jpg);
+
+    }
+    .txt{
+        position: absolute;
+        top: 15rem;
+        color: #fff;
+        left: 4.2rem;
+        top: 20rem;
+        font-size: 46px;
+    }.main-btn{
+        position: absolute;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        font-weight: 800;
+        left: 4.4rem;
+        top: 30rem;
+        font-size: 26px;
+        background-color: #ffffff;
+        padding: 1rem 4rem;
+        border-radius: 16px;
+
     }
     .footer{
         font-weight: 400;
