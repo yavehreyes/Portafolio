@@ -2,7 +2,7 @@
 html {
     scroll-behavior: smooth;
   }
-  @media (min-width:1200px){
+  @media (min-width:701px){
     *{
         font-family: 'Satoshi', sans-serif;
         padding: 0;
@@ -96,7 +96,7 @@ html {
         position: absolute;
         top: 15rem;
         color: #fff;
-        left: 4.2rem;
+        left: 1.2rem;
         top: 20rem;
         font-size: 46px;
     }.main-btn{
@@ -104,7 +104,7 @@ html {
         text-decoration: none;
         color: rgb(0, 0, 0);
         font-weight: 800;
-        left: 4.4rem;
+        left: 1.4rem;
         top: 30rem;
         font-size: 26px;
         background-color: #ffffff;
