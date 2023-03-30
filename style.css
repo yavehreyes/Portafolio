@@ -2,6 +2,12 @@
 html {
     scroll-behavior: smooth;
   }
+  *{
+    font-family: 'Satoshi', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} 
   @media (min-width:701px){
     *{
         font-family: 'Satoshi', sans-serif;
@@ -64,12 +70,6 @@ html {
     }
     /*phone*/
 }@media (max-width:700px) {
-    *{
-        font-family: 'Satoshi', sans-serif;
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
-    } 
     /**/
     .navbar{
         position: absolute;
